@@ -7,3 +7,19 @@
 
 '''
 
+import random
+
+tentativa = int()
+numsecret = random.randint(1, 1000)
+print('Seja Bem vindo ao Jogo da adivinhação!\n\n')
+
+while numsecret != tentativa:
+    tentativa = int(input('Tente Acertar o Numero secreto: '))
+    if tentativa < numsecret:
+        print("O Valor é mais alto!\n")
+    elif tentativa > 1000:
+        print('Você está saindo dos limites, tente chutar mais baixo.')
+    elif tentativa > numsecret:
+        print('Chute Mais Baixo!\n')
+                
+print('Você Acertou!!! Parabéns!')
