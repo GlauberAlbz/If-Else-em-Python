@@ -6,3 +6,10 @@
     - Crie um programa que o usuário digite um ano e ele responde se é ano Bissexto
 
 '''
+
+ano = int(input("Digite um ano para descobrir se é Bissexto: "))
+
+if ano % 4 == 0:
+    print("É bissexto!")
+else:
+    print("Não é bissexto!")
