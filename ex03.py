@@ -41,7 +41,7 @@ velocidade_media = deltaS / deltaT
 
 print(50*"-")
 print(f"Quantidade de kilômetros rodados: {deltaS:.2f}KM")
-print(f"Tempo de viagem: {dt}")
+print(f"Tempo de viagem: {delta_hora}:{delta_minuto}h")
 print(f"Velocidade média: {velocidade_media:.0f}Km/h")
 if velocidade_media > 80:
     multa = 5 * deltaS
