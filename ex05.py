@@ -9,6 +9,10 @@
 
 '''
 
+import os
+
+os.system('cls')
+
 salario = float(input("Digite o seu sálario: "))
 filhos = int(input("Digite quantos filhos você tem: "))
 bonus_pobre = float()

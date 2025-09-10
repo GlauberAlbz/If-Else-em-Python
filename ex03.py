@@ -11,6 +11,9 @@
 '''
 
 import datetime as dt
+import os
+
+os.system('cls')
 
 inicio = float(input("Qual o km de inicio? "))
 chegada = float(input("Qual o km de chegada? "))

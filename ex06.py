@@ -7,6 +7,10 @@
 
 '''
 
+import os
+
+os.system('cls')
+
 reta1 = float(input("Digite o valor da reta 1: "))
 reta2 = float(input("Digite o valor da reta 2: "))
 reta3 = float(input("Digite o valor da reta 3: "))

@@ -6,6 +6,9 @@
     - Crie um programa que o usuário digite um ano e ele responde se é ano Bissexto
 
 '''
+import os
+
+os.system('cls')
 
 ano = int(input("Digite um ano para descobrir se é Bissexto: "))
 

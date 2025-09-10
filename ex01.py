@@ -8,6 +8,9 @@
 '''
 
 import random
+import os
+
+os.system('cls')
 
 tentativa = int()
 numsecret = random.randint(1, 1000)

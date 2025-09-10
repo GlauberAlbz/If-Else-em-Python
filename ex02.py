@@ -6,6 +6,9 @@
     - Crie um programa em que o usuário digite um número e fale se ele é par ou impar.
 
 '''
+import os
+
+os.system('cls')
 
 num = int(input("Digite um número: "))
 
